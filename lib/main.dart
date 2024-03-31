@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('QR Invitation Scanner'),
         ),
         body: Builder(builder: (context) {
           return Material(
@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
                           });
                         });
                   },
-                  child: Text(code ?? "Click me")),
+                  child: Text(code ?? "Scan QR")),
             ),
           );
         }),
